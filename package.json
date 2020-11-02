@@ -1,6 +1,6 @@
 {
   "name": "xpath",
-  "version": "0.0.27",
+  "version": "0.0.32",
   "description": "DOM 3 XPath implemention and helper for node.js.",
   "engines": {
     "node": ">=0.6.0"
@@ -18,12 +18,11 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "nodeunit": ">=0.6.4",
     "xmldom": "^0.1.19"
   },
   "typings": "./xpath.d.ts",
   "scripts": {
-    "test": "./node_modules/.bin/nodeunit test.js"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
